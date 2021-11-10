@@ -1,6 +1,6 @@
 import './style.css';
 
-import taesaLogo from '../../assets/taesa.png';
+import logo from '../../assets/logo.png';
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="right">
-            <img src={taesaLogo} alt="" />
+            <img src={logo} alt="" />
           </div>
         </div>
       </div>

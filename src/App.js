@@ -6,7 +6,7 @@ import plaque from './assets/plaque.png';
 import product from './assets/product.png';
 import ray from './assets/ray.png';
 import engineer from './assets/engineer.png';
-import taesaBlack from './assets/taesa_black.png';
+import logo from './assets/logo.png';
 
 import ProductBox from './components/ProductBox';
 
@@ -119,7 +119,7 @@ function App() {
                 energia?
               </h2>
 
-              <img src={taesaBlack}></img>
+              <img src={logo}></img>
             </div>
             <div>
               <form>

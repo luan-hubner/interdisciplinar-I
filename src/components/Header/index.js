@@ -1,11 +1,11 @@
 import './style.css';
-import taesaLogo from '../../assets/taesa.png';
+import logo from '../../assets/logo.png';
 import { useState } from 'react';
 
 import { Link } from 'react-scroll';
 
 export default function Header() {
-  const [imageHeader, setImageHeader] = useState(taesaLogo);
+  const [imageHeader, setImageHeader] = useState(logo);
 
   document.addEventListener('scroll', function (e) {
     const heigth = e.path[1].pageYOffset;
@@ -15,13 +15,13 @@ export default function Header() {
     const list = document.getElementById('list');
 
     if (heigth > 99) {
-      setImageHeader(taesaLogo);
+      setImageHeader(logo);
 
       header.style.background = '#232121';
       header.style.height = '80px';
       image.style.width = '80px';
     } else {
-      setImageHeader(taesaLogo);
+      setImageHeader(logo);
 
       header.style.background = 'none';
       header.style.height = '100px';
